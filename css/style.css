@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century ;  
+}
+#prva{
+    background-image: url(../Slike/naslovnaslikaaa.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+nav{
+    background: rgb(167,223,240);
+    font-style: italic;
+    color: transparent;
+    width: auto;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nav .nav-menu{
+    justify-content: space-between;
+   
+}
+.toggle-collapse{
+    right: 0%;
+    width: 90%;
+    cursor: pointer;
+}
+.toggle-collapse.toggle-icons{
+    display: flex;
+    justify-content: right;
+    padding:1.7rem 0 ;
+}
+.toggle-collapse.toggle-icons i{
+    font-size: 1.8rem;
+    color: teal;
+}
+.toggle-collapse.toggle-icons i{
+    display: flex;
+    justify-content: right;
+}
+.toggle-collapse.toggle-icons i{
+    font-size: 1.4rem;
+    color: rgb(38, 8, 107);
+}
+.collapse{
+    width: 20rem;
+}
+.toggle-collapse.toggle-icons.fas fa-bars{
+    font-size: 1.4rem;
+    color: blue;
+}
+
+
+ul{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(44, 157, 172);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+}
+ul li.aktivan a{
+    background-color: white;
+    color: black;
+}
+ul li a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+@media only screen and (max-width:750px){
+    ul{
+        width: 100%;
+        
+    }
+    ul li{
+        list-style: none;
+        display: block;
+        padding: 0;
+    }
+    ul li a{
+        text-decoration: none;
+        color: rgb(44, 157, 172);
+        padding: 5px 20px;
+        border: 1px solid transparent;
+    }
+    ul li.aktivan a{
+        background-color: white;
+        color: rgb(18, 22, 24);
+    }
+    ul li a:hover{
+        background-color:whitesmoke;
+        color: rgb(3, 68, 105);
+    }
+    .toggle{
+        display: block;
+    }
+    .nav.nav-menu{
+        flex-direction: column;
+        display: block;
+        
+
+    }
+    .nav.toggle-collapse{
+        display: initial;
+    }
+    
+}
+.logo {
+    float: right;
+    width: 100px;
+    height: 60px;
+    
+}
+
+.naslov h2{
+ color: rgb(254, 255, 173);
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-align: center;
+ text-transform: uppercase;
+ background-color: rgb(252, 166, 223);
+
+}
+
+.veliki-tekst{
+    font-size: 25px;
+    color: rgba(82, 25, 240, 0.685);
+    margin: 0;
+    background: none;
+}
+a.btn{
+    width: 250px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+a.btn-first:hover{
+    background: transparent;
+    border: 4px solid rgb(243, 243, 11);
+    font-size: 20px;
+
+}
+a.btn-first{
+    background: rgb(240, 250, 102);
+    color: rgb(78, 78, 17);
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: center;
+    border: 3px rgb(129, 11, 80) groove; 
+}
+a.btn-second{
+    background: rgb(119, 190, 231);
+    color: rgb(20, 42, 44);
+    display: flex;
+    margin-bottom: 2rem;
+    justify-items: right;
+    border: 3px rgb(129, 11, 80) groove; 
+}
+a.btn-second:hover{
+    background: transparent;
+    border: 4px solid rgb(4, 137, 146);
+    font-size: 20px;
+    justify-content: center;
+  
+}
+a.btn-thirtd{
+    background: rgb(219, 105, 241);
+    color: darkslategrey;
+    justify-items: center;
+    justify-content: center;
+    margin: auto;
+    border: 3px rgb(11, 58, 129) groove; 
+}
+a.btn-thirtd:hover{
+    background: transparent;
+    border: 4px solid rgb(4, 137, 146);
+    font-size: 20px;
+    justify-content: center;
+}
+#cena {
+    background: rgb(175, 175, 231);
+    color: rgb(23, 5, 36);
+    /*width: max-content;*/
+    margin: 0;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#ikonice{
+    float: right ;
+}
+#Copyright{
+    float: right;
+    color: rgb(3, 8, 8);
+    width: 100%;
+    text-align: center;
+    background-color: rgb(119, 190, 231);
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    /*margin-top: 5rem;*/
+    margin: 0;
+
+}
+h1{
+    margin: 20px;
+}
+.onamaa{
+    margin: 50px 40px ; 
+   
+}
+#futer{
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.container-fluid{
+    background-color: thistle;
+    width: auto;
+
+}
+main{
+    display: grid;
+    grid-template-columns: 10 10;
+    text-align: center;
+    background-color: thistle
+    
+}
+
+#content{
+    display:flexbox;
+    flex-direction: column;
+
+}
+main img{
+    display: grid;
+    grid-row: span;
+    margin: auto;
+}
+#content{
+    width: 100%;
+}
+h1{
+    background-color: rgba(160, 116, 196, 0.979);
+    
+}
+.patisserie{
+ margin: auto;
+ width: auto;
+}
+.col-sm-3 li{
+    list-style-type: none;
+    padding-inline: 2;
+}
+#feature{
+    background: #6da5ca;
+    color: rgb(1, 1, 1);
+    padding: 0;
+    overflow: auto;
+   /* min-height: 10em;*/
+    background-attachment: fixed;
+    }
+#feature ul li {
+font-size: 20px;
+list-style: none;
+line-height: 15px;
+
+}
+#feature  a:link, a:visited { 
+    color: black;
+    text-decoration: none;
+    cursor: auto;
+}
+#feature a:hover{
+    color:  rgb(150, 107, 29);
+}
+.cenovnik{
+    text-align: center;
+ padding: 1.6rem;
+ vertical-align: top;
+ border-top: 0;
+ color: rgb(50, 66, 139);
+ background-color: thistle;
+
+}
+#usluge{
+    width: auto;
+    background-color: thistle;
+    font-size: 28px;
+    
+}
+.table{
+    margin: 0%;
+    width: 100%;
+    background-color: rgb(214, 148, 228);
+    
+}
+.table >thead>tr>th,
+.table> tbody>tr>th, 
+.table >thead>tr>td,
+.table>tbody>tr>td{
+ text-align: center;
+ /*padding: 1.6rem;*/
+ vertical-align: top;
+ padding: auto ;
+ border-top: 0;
+ color: rgb(50, 66, 139);
+ background-color: thistle;
+
+ 
+}
+.table-hover>tbody>tr:hover>td,
+.table-hover>tbody>tr:hover>th{
+    background-color: rgb(238, 238, 138);
+}
+.anketa{
+    background-color: rgb(182, 135, 182);
+}
+label{
+
+    font-size: 20px;
+    color: rgb(25, 4, 117);
+    text-align: center; 
+}
+#usl{
+    background-color: thistle;
+   
+}
+
+.demo {
+    opacity: 0.6;
+  }
+  
+/* .active,
+  .demo:hover {
+    opacity: 1;
+}
+}*/
